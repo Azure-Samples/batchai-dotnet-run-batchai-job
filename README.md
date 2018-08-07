@@ -1,10 +1,10 @@
 ---
-services: Batchai
-platforms: .Net
+services: Batch-AI
+platforms: dotnet
 author: lenala
 ---
 
-# Getting Started with Batchai - Manage Batch AI - in .Net #
+# Getting started on creating a Batch AI cluster and executing an AI job using C# #
 
           Azure Batch AI sample.
            - Create Storage account and Azure file share
@@ -22,7 +22,7 @@ author: lenala
 
 To run this sample:
 
-Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-sdk-for-net/blob/Fluent/AUTH.md).
+Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-java/blob/master/AUTH.md).
 
     git clone https://github.com/Azure-Samples/batchai-dotnet-run-batchai-job.git
 
