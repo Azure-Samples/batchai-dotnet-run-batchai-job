@@ -15,6 +15,7 @@ using Microsoft.Azure.Management.Storage.Fluent;
 using Microsoft.Azure.Management.Storage.Fluent.Models;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.File;
+using ExecutionState = Microsoft.Azure.Management.BatchAI.Fluent.Models.ExecutionState;
 
 namespace ManageBatchAI
 {
@@ -43,7 +44,7 @@ namespace ManageBatchAI
             Region region = Region.USWest2;
             string shareName = SdkContext.RandomResourceName("fs", 20);
             string clusterName = SdkContext.RandomResourceName("cluster", 15);
-            string userName = "tirekicker";
+            string userName = Utilities.CreateUsername();
             string sharePath = "mnistcntksample";
 
             try
