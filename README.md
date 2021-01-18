@@ -5,8 +5,8 @@ languages:
 products:
 - azure
 extensions:
-- services: Batch-AI
-- platforms: dotnet
+  services: Batch-AI
+  platforms: dotnet
 ---
 
 # Getting started on creating a Batch AI cluster and executing an AI job using C# #
